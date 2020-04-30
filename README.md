@@ -9,3 +9,7 @@ Pretty much just what the name sounds like, a terminal interface for docs.rs. Th
 ## Binary format viewer
 
 Uses some kind of specification language, prints out the content of a binary stream/file, in the original format.
+
+## Rio
+
+A Rust-like scripting language. Uses some kind of GC, but Dyon-like can also be great for experiment. Features Rust-like semantics, with algebaric types and traits (would need research to see how that would work in a dynamic typed context). Heavily uses postfix syntax. Uses simple OO (`struct` like). The aim should be small and fast (like Lua for C).
